@@ -1,7 +1,7 @@
 ami_id                       = "ami-0ac79214f93af0a57"
 ami_owner                    = "099720109477"
 env                          = "dev"
-instance_type                = "t3.micro"
+instance_type                = "c5.4xlarge"
 name                         = "linux"
 namespace                    = "jnw"
 region                       = "us-west-2"
@@ -10,4 +10,3 @@ ssh_key_pair                 = "ec2-login"
 subnet                       = "subnet-e95b8ea3"
 vpc_id                       = "vpc-8c702ef4"
 root_volume_size             = 40
-user_data                    = "curl -s https://raw.githubusercontent.com/jwhittem/jnw-dev-linux-ec2/main/provision.sh | bash"
