@@ -1,4 +1,4 @@
-ami_id                       = "ami-0892d3c7ee96c0bf7"
+ami_id                       = "ami-0ac79214f93af0a57"
 ami_owner                    = "099720109477"
 env                          = "dev"
 instance_type                = "t3.micro"
