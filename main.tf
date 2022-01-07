@@ -27,6 +27,7 @@ module "ec2_instance" {
   subnet                      = var.subnet
   version                     = "0.40.0"
   vpc_id                      = var.vpc_id
+  user_data                   = var.user_data
 
   security_group_rules = [
     {
