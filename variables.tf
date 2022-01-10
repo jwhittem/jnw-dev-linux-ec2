@@ -18,6 +18,10 @@ variable "instance_type" {
   type = string
 }
 
+variable "user_data_base64" {
+  type = string
+}
+
 variable "ssh_key_pair" {
   type = string
 }

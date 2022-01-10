@@ -16,8 +16,8 @@ module "label" {
 module "ec2_instance" {
   source = "cloudposse/ec2-instance/aws"
   # Cloud Posse recommends pinning every module to a specific version
-  ami                         = var.ami_id
-  ami_owner                   = var.ami_owner
+  #ami                         = var.ami_id
+  #ami_owner                   = var.ami_owner
   associate_public_ip_address = true
   context                     = module.label.context
   instance_type               = var.instance_type
@@ -27,7 +27,8 @@ module "ec2_instance" {
   subnet                      = var.subnet
   version                     = "0.40.0"
   vpc_id                      = var.vpc_id
-
+  user_data_base64            = var.user_data_base64
+  
   security_group_rules = [
     {
       type        = "ingress"
