@@ -1,7 +1,7 @@
 ami_id                       = "ami-0ac79214f93af0a57"
 ami_owner                    = "099720109477"
 env                          = "dev"
-instance_type                = "t3.micro"
+instance_type                = "t2.micro"
 name                         = "linux"
 namespace                    = "jnw"
 region                       = "us-east-1"
@@ -9,5 +9,5 @@ security_groups              = [""]
 ssh_key_pair                 = "ec2-jnw-1"
 subnet                       = "subnet-a6ece8d1"
 vpc_id                       = "vpc-a2ff0dc6"
-root_volume_size             = 40
+root_volume_size             = 8
 user_data_base64             = "c3VkbyBhcHQgdXBkYXRlICYmIHN1ZG8gYXB0IHVwZ3JhZGUgLXkgCg=="
