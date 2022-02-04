@@ -9,5 +9,5 @@ security_groups              = [""]
 ssh_key_pair                 = "ec2-jnw-1"
 subnet                       = "subnet-a6ece8d1"
 vpc_id                       = "vpc-a2ff0dc6"
-root_volume_size             = 8
+root_volume_size             = 40
 user_data_base64             = "c3VkbyBhcHQgdXBkYXRlICYmIHN1ZG8gYXB0IHVwZ3JhZGUgLXkgCg=="
